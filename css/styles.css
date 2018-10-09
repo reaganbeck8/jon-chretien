@@ -64,6 +64,7 @@ a:hover {
     max-height: auto;
 
 }
+
 .grid-item1 {
     color: azure;
     text-align: center;
@@ -115,6 +116,64 @@ a:hover {
     color: azure;
     text-align: center;
     font-size: 23px; 
+}
+.grid-container-photo {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.grid-item10 {
+    background-color:#3a3a3a00;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: auto;
+    min-height: 300px;
+    transition: background-color 400ms ease-in-out;
+    background-image: url('https://jonchretien.com/img/stripes.jpg');
+}
+.grid-item11 {
+    background-color:#3a3a3a00;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: auto;
+    min-height: 300px;
+    transition: background-color 400ms ease-in-out;
+    background-image: url('https://jonchretien.com/img/camera.jpg');
+}
+.grid-item12 {
+    background-color:#3a3a3a00;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: auto;
+    min-height: 300px;
+    transition: background-color 400ms ease-in-out;
+    background-image: url('https://jonchretien.com/img/biker.jpg');
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.grid-item13 {
+    background-color:#3a3a3a00;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: auto;
+    min-height: 300px;
+    transition: background-color 400ms ease-in-out;
+    background-image: url('https://jonchretien.com/img/ballerina.jpg');
+}
+.grid-item14 {
+    background-color:#3a3a3a00;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: auto;
+    min-height: 300px;
+    transition: background-color 400ms ease-in-out;
+    background-image: url('https://jonchretien.com/img/warriors.jpg');
 }
 .grid-img {
     object-fit: contain;
