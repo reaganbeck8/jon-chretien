@@ -7,3 +7,5 @@ I used the @import feature as well as pulled fonts from Google apis which gave m
 website a better look.
 
 I still need to make the website responsive for mobile and tablet devices.
+
+You can access the site here: https://reaganbeck8.github.io/project-2/index.html
