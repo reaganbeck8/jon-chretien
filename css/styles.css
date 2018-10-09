@@ -1,0 +1,143 @@
+
+body {
+    padding-top: 56px;
+    padding-right: 120px;
+    padding-bottom: 56px;
+    padding-left: 120px;
+    background-color: #0a0a0a;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-image: url(../img/skulls.svg);
+}
+.img {
+  text-align: center;
+  padding-top: 0.5em;
+}
+header {
+    padding-bottom: 56px;
+}
+h1 {
+    color: white;
+    font-family: 'Vollkorn', sans-serif;
+    text-align: center;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+}
+h2 {
+    color: white;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 2.1em;
+    margin-top: 0;
+    color: #ccc;
+    font-weight: inherit;
+    word-wrap: break-word;
+    padding-bottom: 2em;
+    border-bottom: 3px double;
+    border-bottom-color: #575656;
+    margin-bottom: 1rem;
+
+}
+a {
+    text-decoration: none;
+    transition: .2s;
+    color: #ff3;
+}
+a:hover {
+    color: #575656;
+
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 41.73vh 41.73vh 41.73vh;
+    grid-gap: 24px;
+    width: 100%;
+    max-height: auto;
+
+}
+.grid-item1 {
+    color: azure;
+    text-align: center;
+    font-size: 23px;
+    /* background-image: url(../img/spotify-artists.jpg); */
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+
+    
+}
+.grid-item2 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item3 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item4 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item5 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item6 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item7 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item8 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-item9 {
+    color: azure;
+    text-align: center;
+    font-size: 23px; 
+}
+.grid-img {
+    object-fit: contain;
+    object-position: inherit;
+    
+}
+
+
+img {
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* font-family: 'Vollkorn', serif; */
