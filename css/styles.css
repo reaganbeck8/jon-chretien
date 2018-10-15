@@ -212,6 +212,12 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.release-name {
+    display: grid;
+    grid-auto-columns: repeat(4, 1fr);
+    width: 100%;
+    line-height: 1.5cm;
+}
 img {
     object-fit: contain;
     background-size: contain;
