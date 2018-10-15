@@ -7,8 +7,8 @@ body {
     background-color: #0a0a0a;
     margin-left: 1em;
     margin-right: 1em;
-    background-image: url(../img/skulls.svg);
 }
+
 .img {
   text-align: center;
   padding-top: 0.5em;
@@ -69,11 +69,13 @@ a:hover {
     color: azure;
     text-align: center;
     font-size: 23px;
-    /* background-image: url(../img/spotify-artists.jpg); */
+    background-image: url(https://jonchretien.com/img/work_s4a.jpg);
     object-fit: contain;
     background-size: contain;
     background-repeat: no-repeat;
     text-align: left;
+    z-index: 1;
+    max-width: 397px;
 
     
 }
@@ -128,8 +130,8 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    height: auto;
-    min-height: 300px;
+    height: 406.317px;
+    width: 608px;
     transition: background-color 400ms ease-in-out;
     background-image: url('https://jonchretien.com/img/stripes.jpg');
 }
@@ -138,8 +140,8 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    height: auto;
-    min-height: 300px;
+    height: 406.317px;
+    width: 608px;
     transition: background-color 400ms ease-in-out;
     background-image: url('https://jonchretien.com/img/camera.jpg');
 }
@@ -148,8 +150,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    height: auto;
-    min-height: 300px;
+    height: 828px;
     transition: background-color 400ms ease-in-out;
     background-image: url('https://jonchretien.com/img/biker.jpg');
     grid-row: span 2;
@@ -160,18 +161,16 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    height: auto;
-    min-height: 300px;
+    height: 411.25px;
     transition: background-color 400ms ease-in-out;
     background-image: url('https://jonchretien.com/img/ballerina.jpg');
 }
 .grid-item14 {
     background-color:#3a3a3a00;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-blend-mode: multiply;
-    height: auto;
-    min-height: 300px;
+    height: 403.17px;
     transition: background-color 400ms ease-in-out;
     background-image: url('https://jonchretien.com/img/warriors.jpg');
 }
