@@ -179,7 +179,38 @@ a:hover {
     object-position: inherit;
     
 }
+.grid-container-music {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    max-height: 292px;
+    height: 292px;
+}
 
+.grid-item15 {
+    background-image: url('../img/jorja-smith-lost-found.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.grid-item16 {
+    background-image: url('../img/spotify-singles-khruangbin.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.grid-item17 {
+    background-image: url('../img/geography-tom-misch.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.grid-item18 {
+    background-image: url('../img/khalid-american-teen.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 img {
     object-fit: contain;
