@@ -6,98 +6,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jon Chretien | Front End Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,900" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,700,900');
+        @import url('https://fonts.googleapis.com/css?family=Vollkorn:400,900');
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <header class="banner">
-            <div class="img">
-                <img src="img/avatar.jpg" alt="baby-photo" style="border-radius: 50%" width="120px" height="120px">
-            </div>
-            <h1 class="banner-text">👋Hello</h1>
-            <h2>My name is Jon Chretien. I’m a <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank"
-                    class="anchor-hover">NYC</a> based front end engineer currently<br>
-                working on web apps for artists at <a href="https://www.spotify.com" target="_blank" class="anchor-hover">Spotify</a>.
-                I previously built editorial &<br>
-                marketing projects at <a href="https://www.nytimes.com" target="_blank" class="anchor-hover"> The New
-                    York Times.</a></h2>
-        </header>
-    </div>
-    <div class="container">
-        <section class="content1">
+    <div class="main-container">
+    <header class="banner">
+        <div class="img">
+            <img src="img/avatar.jpg" alt="baby-photo" style="border-radius: 50%" width="120px" height="120px">
+        </div>
+        <p class="banner-text-greeting">👋Hello</p>
+        <h1 class="banner-text">My name is Jon Chretien. I’m a <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank" class="anchor-hover">NYC</a> based front end engineer currently
+            working on web apps for artists at <a href="https://www.spotify.com" target="_blank" class="anchor-hover">Spotify</a>.
+            I previously built editorial &
+            marketing projects at <a href="https://www.nytimes.com" target="_blank" class="anchor-hover">The New York Times.</a></h1>
+        <hr>
+    </header>
+
+    <main>
+        <section class="main-content">
             <h2>Selected Works</h2>
-            <div class="grid-container">
-                <div class="grid-item1">
-                    <div class="grid-img">
-                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists"><img src="img/transp.png"
-                                alt="spotify-artists" width="397px" height="auto"></a>
+            <article class="grid-container">
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_s4a.jpg" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>Spotify for Artists</h3>
+                        </a>
+                        <p class="project-description">Fan insights for artists & managers to discover more about their
+                            audience.</p>
+                        <p class="role">Front end code for Spotify</p>
                     </div>
                 </div>
-                <div class="grid-item2">
-                    <div class="grid-img">
-                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists"><img src="img/transp.png"alt="election" width="397px" height="auto"></a>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_midterms.jpg" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>Midterm Election Banners</h3>
+                        </a>
+                        <p class="project-description">Home page banners that highlighted the house & senate results,
+                            as well as leaders in the top races.</p>
+                        <p class="role">Front end & Ruby code for NYTimes</p>
                     </div>
                 </div>
-                <div class="grid-item3">
-
-                    <div class="grid-img">
-                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists"><img src="img/blog.gif"
-                                alt="opinionator-blog"></a>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_opinionator.gif" alt="spotify-for-artists"></a>
                     </div>
-
+                    <div class="description">
+                        <a href="">
+                            <h3>Opinionator Blog</h3>
+                        </a>
+                        <p class="project-description">This NYTimes’ blog highlighted opinion columnists & their
+                            commentary on politics, law, science, finance.</p>
+                        <p class="role">Front end code for NYTimes</p>
+                    </div>
                 </div>
-                <div class="grid-item4"><img src="img/recipe.jpg" alt="food"></div>
-                <div class="grid-item5"><img src="img/bubbles.gif" alt="circles"></div>
-                <div class="grid-item6"><img src="img/work_trickipedia.jpg" alt="skater"></div>
-                <div class="grid-item7"><img src="img/emoji.gif" alt="tongue-out-emoji"></div>
-                <div class="grid-item8"><img src="img/work_carousel.gif" alt="code-snip"></div>
-                <div class="grid-item9"><img src="img/work_holga_project.jpg" alt="shop-front"></div>
-            </div>
-
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_emp.jpg" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>Eleven Madison Park (v1) </h3>
+                        </a>
+                        <p class="project-description">A contemporary American fine dining restaurant located in the
+                            heart of New York City.</p>
+                        <p class="role">Front end code for EMP</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_custard.gif" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>Shake Shack Custard Cluster</h3>
+                        </a>
+                        <p class="project-description">A visualization of Shake Shack’s monthly custard calendar,
+                            broken out by day & year.</p>
+                        <p class="role">Front end code & design for myself</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_trickipedia.jpg" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>The Berrics Trickipedia Stats</h3>
+                        </a>
+                        <p class="project-description">The stats behind The Berrics’ Trickipedia, an education series
+                            on skateboard tricks.</p>
+                        <p class="role">Front end code & design for myself</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_hungry_city.gif" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>Hungry City Explorer</h3>
+                        </a>
+                        <p class="project-description">Articles from the NYTimes’ Hungry City series, grouped by
+                            borough.</p>
+                        <p class="role">Front end code, Python, & design for myself</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_carousel.gif" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3>Infinite Carousel</h3>
+                        </a>
+                        <p class="project-description">A timed infinite carousel that uses vanilla JavaScript & CSS
+                            animations.</p>
+                        <p class="role">Front end code for myself</>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="thumbnail">
+                        <a href="https://artists.spotify.com/blog/fan-insights-is-now-spotify-for-artists" target="_blank"><img
+                                src="https://jonchretien.com/img/work_holga_project.jpg" alt="spotify-for-artists"></a>
+                    </div>
+                    <div class="description">
+                        <a href="">
+                            <h3 class="project-list-title">The Holga Project</h3>
+                        </a>
+                        <p class="project-description">Drag & drop an image into your browser and apply a Holga-like
+                            filter.</p>
+                        <p class="role">Front end code & design for myself</p>
+                    </div>
+                </div>
+            </article>
+            
         </section>
-
-    </div>
-    <hr>
-    <section>
-
         <h2>Photography</h2>
+        <section class="photography">
+            <article class="photography-grid">
+                <div class="bw-photography"><a href="https://www.instagram.com/p/1yqGl6IdQ4/"><img src="https://jonchretien.com/img/stripes.jpg" alt="stripes"></a></div>
+                <div class="bw-photography"><a href="https://www.instagram.com/p/vlxcHoIdco/"></a><img src="https://jonchretien.com/img/camera.jpg" alt="camera"></div>
+                <div class="biker"><a href="https://www.instagram.com/p/xj3JuXIdWb/"><img src="https://jonchretien.com/img/biker.jpg" alt="biker"></a></div>
+                <div class="bw-photography"><a href="https://www.instagram.com/p/BITHP8PB_M9/"><img src="https://jonchretien.com/img/ballerina.jpg" alt="ballerina"></a></div>
+                <div class="bw-photography"><a href="https://www.instagram.com/p/5u__zCIdb9/"><img src="https://jonchretien.com/img/warriors.jpg" alt="warriors"></a></div>
+            </article>   
+        </section>
+        <section class="current-playlist">
+            <h2>Currently Listening</h2>
+            <article class="currently-listening">
+                <div class="cover-art">
+                    <div class="cover-image">
+                        <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb"><img src="https://i.scdn.co/image/ed73696e637e57372b1dac5026f8848241c75417" alt="jorja-smith"></a>
+                        <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb">Lost & Found</a>
+                        <div class="artist-name">Jorja Smith</div>
+                    </div>
+                </div>
+                <div class="cover-art">
+                        <div class="cover-image">
+                            <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb"><img src="https://i.scdn.co/image/ed73696e637e57372b1dac5026f8848241c75417" alt="jorja-smith"></a>
+                            <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb">Lost & Found</a>
+                            <div class="artist-name">Jorja Smith</div>
+                        </div>
+                </div>
+                <div class="cover-art">
+                        <div class="cover-image">
+                            <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb"><img src="https://i.scdn.co/image/ed73696e637e57372b1dac5026f8848241c75417" alt="jorja-smith"></a>
+                            <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb">Lost & Found</a>
+                            <div class="artist-name">Jorja Smith</div>
+                        </div>
+                </div>
+                <div class="cover-art">
+                        <div class="cover-image">
+                            <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb"><img src="https://i.scdn.co/image/ed73696e637e57372b1dac5026f8848241c75417" alt="jorja-smith"></a>
+                            <a href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb">Lost & Found</a>
+                            <div class="artist-name">Jorja Smith</div>
+                        </div>
+                </div>
 
-        <div class="grid-container-photo">
-            <a class="grid-item10" href="https://www.instagram.com/p/1yqGl6IdQ4/" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item11" href="https://www.instagram.com/p/vlxcHoIdco/" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item12" href="https://www.instagram.com/p/xj3JuXIdWb/" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item13" href="https://www.instagram.com/p/BITHP8PB_M9/" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item14" href="https://www.instagram.com/p/5u__zCIdb9/" target="_blank" rel="noopener noreferrer"></a>
-        </div>
-    </section>
-    <hr>
-    <section>
-        <h2>Currently Listening</h2>
+                
+                
+                
 
-        <div class="grid-container-music">
-            <a class="grid-item15" href="https://open.spotify.com/album/2B0fUi0BSwxK2HGNtaFApb" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item16" href="https://open.spotify.com/album/0SsFgST749MQC6oN9PLHLf" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item17" href="https://open.spotify.com/album/28enuddLPEA914scE6Drvk" target="_blank" rel="noopener noreferrer"></a>
-            <a class="grid-item18" href="https://open.spotify.com/album/6kf46HbnYCZzP6rjvQHYzg" target="_blank" rel="noopener noreferrer"></a>
-        </div>
-        <div class="release-name">
-            <a class="Title-1" href="" target="_blank" rel="noopener noreferrer">Lost & Found</a>
-            <a class="Title-2" href="" target="_blank" rel="noopener noreferrer">Spotify Singles</a>
-            <a class="Title-3" href="" target="_blank" rel="noopener noreferrer">Geography</a>
-            <a class="Title-4" href="" target="_blank" rel="noopener noreferrer">American Teen</a>
-        </div>
-        <div class="artist-name">
-            <a class="artist-name-1" href="" target="_blank" rel="noopener noreferrer"></a>
-            <a class="artist-name-2" href="" target="_blank" rel="noopener noreferrer"></a>
-            <a class="artist-name-3" href="" target="_blank" rel="noopener noreferrer"></a>
-            <a class="artist-name-4" href="" target="_blank" rel="noopener noreferrer"></a>
-        </div>
-    </section>
+            </article>
+        </section>
+    </div>
+    </main>
+
+
 </body>
-
-</html>
