@@ -179,9 +179,23 @@ img {
 .cover-image {
     width: 292px;
     height: 292px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 .artist-name {
-    color: white;
+    color: #ccc;
+}
+img {
+    transition: opacity .3s ease-in-out;
+}
+a:hover {
+    color: #666;
+    
+}
+a > img:hover {
+    opacity: 0.65;
+    
+}
 }
 @media screen and (max-width: 980px)  {
     .grid-container {
