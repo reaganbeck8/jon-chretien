@@ -14,8 +14,10 @@ body {
     text-align: left;
 }
 header {
+
+    padding-left: 32px;
+    padding-right: 32px;
     max-width: 1240px;
-    width: 100%;
     margin:  0 auto;
 }
 .role {
@@ -221,10 +223,12 @@ footer {
 
 .footerList li {
     margin-right: 24px;
-    font-size: 1em;
+    font-size: 20px;
 }
 
 .copywrite {
+    font-size: 20px;
+    color: #ccc;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -265,12 +269,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    /* .cover-art {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        width: auto;
-        
-    } */
+
     .banner-text {
         padding-left: 0;
         padding-right: 0;
@@ -375,7 +374,4 @@ footer {
     .copywrite {
         justify-content: center;
     }
-}
-@media screen and (max-width:767px) {
-    
 }
