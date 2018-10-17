@@ -32,7 +32,7 @@ header {
     margin-top: unset;
 }
 .banner-text {
-    color: #fff;
+    color: #ccc;
     display: inline-block;
     font-size: 34px;
     font-weight: 400;
@@ -141,8 +141,14 @@ img {
     overflow: hidden;
 }
 .img {
-    margin-left: 45%;
-    margin-right: 45%;
+    width: 120px;
+    max-width: 70%;
+    height: auto;
+    overflow: hidden;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .photography {
@@ -221,6 +227,16 @@ a > img:hover {
         height: auto;
         overflow: hidden;
     }
+    .img {
+        width: 120px;
+        max-width: 70%;
+        height: auto;
+        overflow: hidden;
+        padding-right: 25%;
+        padding-left: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media screen and (max-width: 470px )  {
     .grid-container {
@@ -230,7 +246,7 @@ a > img:hover {
         
     }
     h2 {
-        font-size: 47px;
+        font-size: 36px;
         padding-left: unset;
         padding-right: unset;
         line-height: 1.2;
@@ -243,8 +259,8 @@ a > img:hover {
         border-top: 13px solid #3a3a3a;
         margin: unset;
     }
-    img {
-        width: auto;
+    .img  {
+        width: 200px;
         max-width: 100%;
         height: auto;
         overflow: hidden;
@@ -259,5 +275,21 @@ a > img:hover {
         margin-bottom: 48px;
         border-bottom: 3px double;
         border-bottom-color: #575656;
+    }
+    .banner-text {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 24px;
+    }
+
+    .img {
+        width: 120px;
+        max-width: 70%;
+        height: auto;
+        overflow: hidden;
+        padding-right: 25%;
+        padding-left: 25%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
