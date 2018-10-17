@@ -182,9 +182,14 @@ img {
     grid-gap: 24px;
     max-width: 1240px;
 }
+.current-playlist {
+    border-bottom: 1px solid #575656;
+    margin-bottom: 56px;
+    padding-bottom: 72px;
+}
 .cover-image {
-    width: 292px;
-    height: 292px;
+    width: auto;
+    height: auto;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -202,6 +207,31 @@ a > img:hover {
     opacity: 0.65;
     
 }
+footer {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footerList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footerList li {
+    margin-right: 24px;
+    font-size: 1em;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1 1 0;
+}
 
 @media screen and (max-width: 980px)  {
     .grid-container {
@@ -211,7 +241,7 @@ a > img:hover {
         
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 47px;
     }
     body {
         padding: 3.5em;
@@ -236,6 +266,28 @@ a > img:hover {
         padding-left: 25%;
         margin-left: auto;
         margin-right: auto;
+    }
+    /* .cover-art {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: auto;
+        
+    } */
+    .banner-text {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 24px;
+    }
+    footer {
+        display: block;
+    }
+
+    .footerList {
+        justify-content: center;
+    }
+
+    .copywrite {
+        justify-content: center;
     }
 }
 @media screen and (max-width: 470px )  {
@@ -292,4 +344,40 @@ a > img:hover {
         margin-left: auto;
         margin-right: auto;
     }
+    .photography-grid {
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 100%;
+        margin-bottom: 3.5em;
+        padding-bottom: 4.5em;
+        border-bottom: 1px solid #575656;
+    }
+    .biker {
+        grid-column-start: span 1;
+        grid-column-end: span 2;
+    }
+    .currently-listening {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 24px;
+    
+    }
+    footer {
+        display: block;
+    }
+
+    .footerList {
+        justify-content: center;
+    }
+
+    .copywrite {
+        justify-content: center;
+    }
+}
+@media screen and (max-width:767px) {
+    
 }
