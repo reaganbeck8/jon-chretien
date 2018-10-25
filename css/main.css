@@ -2,6 +2,7 @@ html {
     margin: unset;
     padding: unset;
 }
+
 body {
     margin: unset;
     background-color: #0a0a0a;
@@ -10,22 +11,15 @@ body {
     padding: 56px;
     text-align: center;
 }
-.description {
-    text-align: left;
-}
-header {
+    /* Header text styling */
 
+header {
     padding-left: 32px;
     padding-right: 32px;
     max-width: 1240px;
     margin:  0 auto;
 }
-.role {
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.625em;
-    letter-spacing: 1px;
-}
+
 .banner-text-greeting {
     font-size: 47px;
     font-weight: 700;
@@ -43,35 +37,49 @@ header {
     margin-bottom: 0;
     line-height: 1.3;
 }
-.project-description {
-    margin-bottom: 0.250em;
-    margin-top: unset;
-    color: #ccc; 
-}
+    /** Header text styling end **/
+
+    /** Selected Works text styling **/
+
 .role {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.625em;
+    letter-spacing: 1px;
     color: #9e9e9e;
 }
+
+
+
 p {
     color: white;
     font-family: Vollkorn, sans-serif;
     
 }
-h3 {
-    margin-top: unset;
-    margin-bottom: 0.2em;
-    font-weight: 400;
-    font-size: 24px;
-}
+
 
 .img {
     text-align: center;
     padding-top: 0.5em;
-  }
+}
+    /* Selected works wrapper for Thumbnail, Description and Project-Description */
 .wrapper {
       text-align: left;
-      
-  }
-  h1 {
+}
+.description {
+    text-align: left;
+}
+.project-description {
+    margin-bottom: 0.250em;
+    margin-top: unset;
+    color: #ccc; 
+}
+
+/* Selected works wrapper for Thumbnail, Description and Project-Description */
+
+    /* h1,2,3 text styling */
+
+h1 {
     color: white;
     font-family: 'Vollkorn', sans-serif;
     text-align: center;
@@ -93,12 +101,19 @@ h2 {
     color: white;
     font-weight: 900;
     word-wrap: break-word;
-
 }
+
 h3 {
+    margin-top: unset;
+    margin-bottom: 0.2em;
+    font-weight: 400;
+    font-size: 24px;
     font-size: 1.5em;
     margin-bottom: 0.2;
 }
+
+    /* h1,2,3 text styling ends */
+
 hr {
     border-top: none;
     border-right: none;
@@ -109,6 +124,8 @@ hr {
     border-bottom: 3px double;
     border-bottom-color: #575656;
 }
+
+    /* Anchor tag */
 a {
     text-decoration: none;
     transition: .2s;
@@ -119,10 +136,21 @@ a:hover {
 
     
 }
+a:hover {
+    color: #666;
+    
+}
+a > img:hover {
+    opacity: 0.65;
+    
+}
+    /* Anchor tag */
+
+    /* Selected Works Section Grid-Container */
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
     grid-gap: 24px;
     max-width: 1240px;
     margin-left: auto;
@@ -130,16 +158,17 @@ a:hover {
     margin-bottom: 3.5em;
     padding-bottom: 4.5em;
     border-bottom: 1px solid #575656;
-
-
-
 }
+
 img {
     width: auto;
     max-width: 100%;
     height: auto;
     overflow: hidden;
 }
+
+    /* baby-photo's div */
+
 .img {
     width: 120px;
     max-width: 70%;
@@ -151,9 +180,12 @@ img {
     margin-right: auto;
 }
 
+    /* Photography section & grid */
+
 .photography {
     max-width: 1240px;
 }
+
 .photography-grid {
     display: grid;
     grid-template-columns: auto auto;
@@ -167,46 +199,52 @@ img {
     padding-bottom: 4.5em;
     border-bottom: 1px solid #575656;
 }
+
 .biker {
     grid-column-start: span 2;
     grid-row-end: span 2;
 }
+
+/* Photography section & grid  ends here*/
+
+
 .main-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1240px;
 }
+/*Jon Chretien's Current Playlist and the Grid created for it*/
+
 .currently-listening {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 24px;
     max-width: 1240px;
 }
+
 .current-playlist {
     border-bottom: 1px solid #575656;
     margin-bottom: 56px;
     padding-bottom: 72px;
 }
+
 .cover-image {
     width: auto;
     height: auto;
     font-size: 20px;
     line-height: 1.5;
 }
+
 .artist-name {
     color: #ccc;
 }
+
 img {
     transition: opacity .3s ease-in-out;
 }
-a:hover {
-    color: #666;
-    
-}
-a > img:hover {
-    opacity: 0.65;
-    
-}
+/*Jon Chretien's Current Playlist and the Grid created for it ends here*/
+
+/* Footer that displays with flexbox - see ReadMe file for more information on Flexbox */
 footer {
     display: flex;
     padding-top: 10px;
@@ -234,17 +272,23 @@ footer {
     align-items: flex-end;
     flex: 1 1 0;
 }
+/* Footer ends here */
+
+/* Media Queries */
+
+/** Responsive Design for Tablet Devices **/
 
 @media screen and (max-width: 980px)  {
     .grid-container {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 1.5em;
-        
     }
+
     h2 {
         font-size: 47px;
     }
+
     body {
         padding: 3.5em;
         background-color: #0a0a0a;
@@ -253,12 +297,14 @@ footer {
         border-top: 13px solid #3a3a3a;
         box-sizing: unset;
     }
+
     img {
         width: auto;
         max-width: 100%;
         height: auto;
         overflow: hidden;
     }
+
     .img {
         width: 120px;
         max-width: 70%;
@@ -275,6 +321,7 @@ footer {
         padding-right: 0;
         font-size: 24px;
     }
+
     footer {
         display: block;
     }
@@ -287,44 +334,51 @@ footer {
         justify-content: center;
     }
 }
+
+/** Responsive Design for Mobile Devices **/
+
 @media screen and (max-width: 470px )  {
     .grid-container {
         display: grid;
         grid-template-columns: auto;
         grid-gap: 1.5em;
-        
     }
+
     h2 {
         font-size: 36px;
         padding-left: unset;
         padding-right: unset;
         line-height: 1.2;
         margin-bottom: 24px;
-        
     }
+
     body {
         padding: 2.5em;
         background-color: #0a0a0a;
         border-top: 13px solid #3a3a3a;
         margin: unset;
     }
+
     .img  {
         width: 200px;
         max-width: 100%;
         height: auto;
         overflow: hidden;
     }
+
     h3 {
         font-size: 24px;
         margin-bottom: 4px;
         line-height: 1.3;
     }
+
     hr {
         padding-bottom: 48px;
         margin-bottom: 48px;
         border-bottom: 3px double;
         border-bottom-color: #575656;
     }
+
     .banner-text {
         padding-left: 0;
         padding-right: 0;
@@ -341,6 +395,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+
     .photography-grid {
         display: grid;
         grid-template-columns: auto ;
@@ -353,16 +408,19 @@ footer {
         padding-bottom: 4.5em;
         border-bottom: 1px solid #575656;
     }
+
     .biker {
         grid-column-start: span 1;
         grid-column-end: span 2;
     }
+
     .currently-listening {
         display: grid;
         grid-template-columns: auto;
         grid-gap: 24px;
     
     }
+
     footer {
         display: block;
     }
